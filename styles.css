@@ -1,15 +1,22 @@
 #container {
     margin: 20px;
+    padding: 20px; /* Add some padding to create space */
+    border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+    position: relative; /* This helps with positioning pseudo-elements */
 }
 
 #container::before {
     content: "Before Text"; /* Change this to your desired text */
     color: #f00; /* Red color */
     font-size: 20px;
+    display: block; /* Makes it take the full width */
+    margin-bottom: 10px; /* Space between before text and main content */
 }
 
 #container::after {
     content: "After Text"; /* Change this to your desired text */
     color: #f00; /* Red color */
     font-size: 20px;
+    display: block; /* Makes it take the full width */
+    margin-top: 10px; /* Space between main content and after text */
 }
