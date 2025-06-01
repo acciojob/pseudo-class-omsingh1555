@@ -1,29 +1,15 @@
 #container {
     margin: 20px;
 }
-#container::before {
-    content: "Before Text"; /* Add your desired text here */
-    color: #f00; /* Red color */
-    font-size: 20px; /* Font size */
-}
-
-#container::after {
-    content: "After Text"; /* Add your desired text here */
-    color: #f00; /* Red color */
-    font-size: 20px; /* Font size */
-}
-#container {
-    margin: 20px;
-}
 
 #container::before {
-    content: "Before Text"; /* Change this to your desired text */
+    content: "Before Element"; /* Change this to your desired text */
     color: #f00;
     font-size: 20px;
 }
 
 #container::after {
-    content: "After Text"; /* Change this to your desired text */
+    content: "After Element"; /* Change this to your desired text */
     color: #f00;
     font-size: 20px;
 }
